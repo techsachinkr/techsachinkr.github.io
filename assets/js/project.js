@@ -4,9 +4,19 @@ const researchTable = document.querySelector(".main");
 
 const research = [
     {
+        title : " Paraphrasing for Marketing communications",
+        organization : "Persado",
+        projectDuration : "Sep 2021 - Present",
+        projectDetails: "i)Trained and fine-tuned various Paraphrasing models with T5,GPT and GPT-Neo models on in-company marketing messages dataset for driving user engagement across marketing communications  via various channels.<br/>ii)Improved paraphrases generated with tuning of text generation hyperparameters and post-processing logic to exclude bad paraphrases.<br/>iii)Built algorithm using BERT and T5 models to generate ads dataset comprising of email headline,body and CTA(call to action) from OCR generated text from marketing emails containing images.",
+        image : "assets/images/project-page/qa_system.jpeg",
+        tools: "Pytorch,Python,BERT,T5,GPT",
+        projectURL:"#0",
+        gitFlag: "false"
+    },
+    {
         title : " Open Domain Question Answering on US Legal Text ",
         organization : "LexisNexis",
-        projectDuration : "Jul 2019 - Present",
+        projectDuration : "Jul 2019 - Sep 2021",
         projectDetails : "i) Worked on developing models and various fine-tuning approaches using BERT Language model trained on US Caselaw and secondary sources to implement Question Answering for legal domain, which was rolled out as a feature on our company’s new product Lexis+.<br/>ii) Developed approaches for BERT based model compression to save costs on embeddings usage and reduce inference time in production, which led to savings of about 100k dollars in operational costs.<br/>iii) Worked on development of query reformulation approaches to improve answers relevance for questions asked to legal domain Question answering system.",
         image : "assets/images/project-page/qa_system.jpeg",
         tools: "Tensorflow,Python,BERT",

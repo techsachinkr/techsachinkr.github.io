@@ -4,6 +4,32 @@ const researchTable = document.querySelector(".main");
 
 const research = [
     {
+        title : "Question Answering Systems for Legal Domain",
+        authors : "Sachin Kumar",
+        conferences : "Talk at Symposium on Artificial Intelligence and Law 2021",
+        researchYr : 2021,
+        paperURL : "http://cse.iitkgp.ac.in/~saptarshi/sail2021/sail2021-sachin-kumar.mp4",
+        citebox : "popup1",
+        citation: {
+            vancouver: "Sachin Kumar. Talk at Symposium on Artificial Intelligence and Law 2021"
+        },
+        abstract: "Question Answering has been a challenging problem to solve in the legal domain due to the complex nature of the legal text. To effectively solve the problem of question answering in legal domain, the answers presented need to be relevant to the question asked, but also present diverse answers so that it can guide the legal researchers with the ill-formed queries. While some approaches have been proposed and implemented to solve this problem like factoid-based question answering and BM25 based retrieval systems, these approaches have suffered in the areas of either relevance or novelty or both.In this presentation, I will be presenting the approaches implemented at LexisNexis for answering the factoid questions for a limited number of legal question types like statute of limitations, doctrines, etc. Furthermore, I will be discussing a high-level overview of our Neural Information Retrieval based Open Legal domain Question Answering which expands on the coverage of various legal domain Question types which not only address factoid questions but also answers complex procedural questions.",
+        absbox: "absPopup1"
+    },
+    {
+        title : " SYSTEMS AND METHODS FOR PROVIDING ANSWERS TO A QUERYSYSTEMS AND METHODS FOR PROVIDING ANSWERS TO A QUERY ",
+        authors : "Sachin Kumar,Dhruv Sakalley,Kishore Raj,Soha Khazaeli,Sunny Chiy Webster,Syjee Mathai,Sanjay Sharma,Bert Staub",
+        conferences : "U.S. Patent filed as US 17/148905 ",
+        researchYr : " Filed Jan 14, 2021",
+        paperURL : "https://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&s1=20210216576.PGNR.&OS=DN/20210216576&RS=DN/20210216576",
+        citebox : "popup1",
+        citation: {
+            vancouver: "Sachin Kumar,Dhruv Sakalley,Kishore Raj,Soha Khazaeli,Sunny Chiy Webster,Syjee Mathai,Sanjay Sharma,Bert Staub.  SYSTEMS AND METHODS FOR PROVIDING ANSWERS TO A QUERYSYSTEMS AND METHODS FOR PROVIDING ANSWERS TO A QUERY. US Patent "
+        },
+        abstract: "Systems and methods for open domain question-answering are disclosed. In one embodiment, a method of providing answers to a question includes retrieving, by a computing device, a plurality of passages relevant to a search query generating a plurality of question-passage pairs, wherein each question-passage pair includes the search query and an individual passage of the plurality of passages, and determining, using a computer model, a probability that a passage of each question-passage pair of at least some of the plurality of question-passage pairs is an answer to a question posed by the search query. The method also includes displaying, on an electronic display, a selected passage of a question-passage pair having a highest probability that the passage is the answer to the question posed by the search query.",
+        absbox: "absPopup1"
+    },
+    {
         title : "Language Model Compression and implications to Search ",
         authors : "Sachin Kumar,Kishore Ethiraj,Sanjay Sharma,Soha Khazaeli,Urvi Luhana,Ashay Khandelwal",
         conferences : "4th Annual RELX Search Summit 2020",
@@ -36,12 +62,12 @@ const research = [
         authors : "Sachin Kumar,Dhruv Sakalley,Kate Farmer,Michael Etgen,Sanket Shukl,Ankur Oberai",
         conferences : "U.S. Patent filed as US 17/028,382",
         researchYr : "Filed Sep 24, 2019",
-        paperURL : "#",
+        paperURL : "http://appft1.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PG01&p=1&u=/netahtml/PTO/srchnum.html&r=1&f=G&l=50&s1=20210089719.PGNR.&OS=DN/20210089719&RS=DN/20210089719",
         citebox : "popup3",
         citation: {
             vancouver: "Sachin Kumar,Dhruv Sakalley,Kate Farmer,Michael Etgen,Sanket Shukl,Ankur Oberai. Transparent Iterative Multi-Concept Semantic Search. US Patent"
         },
-        abstract: "An Iterative multi-concept search methodology using semantic concepts of query and search documents(Will be publicly available to see in 18 months from filing date)",
+        abstract: "An Iterative multi-concept search methodology with continuous feedback by users engaging with legal concepts presented.",
         absbox: "absPopup3"
     },
    

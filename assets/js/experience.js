@@ -4,17 +4,24 @@
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Data Scientist",
+    title: "Senior NLP Data Scientist",
+    cardImage: "assets/images/experience-page/persado-logo.png",
+    place: "Persado",
+    time: "(Sep, 2021 - Present)",
+    desp: "<li>Trained and fine-tuned various Paraphrasing models with T5,GPT and GPT-Neo models on in-company marketing messages dataset for driving user engagement across marketing communications  via various channels.</li> <li>Improved paraphrases generated with tuning of text generation hyperparameters and post-processing logic to exclude bad paraphrases.</li><li>Built algorithm using BERT and T5 models to generate ads dataset comprising of email headline,body and CTA(call to action) from OCR generated text from marketing emails containing images.</li>"
+  },
+  {
+    title: "Senior Data Scientist II",
     cardImage: "assets/images/experience-page/lexisnexis-logo.svg",
     place: "LexisNexis",
-    time: "(June, 2018 - present)",
+    time: "(June, 2018 - Sep, 2021)",
     desp: "<li> Worked on development of Machine learning and Deep learning models for legal domain Question Answering,which was rolled out as feature in our company's new product,Lexis+ </li> <li> Developed sequence tagging models for identifying search queries intent and target terms in Lexis Answers feature of LexisAdvance product.</li>",
   },
   {
     title: "Data Scientist Intern",
     cardImage: "assets/images/experience-page/nsf.png",
     place: "NSF Center for Integrated Pest Management",
-    time: "(Mar - Aug, 2018)",
+    time: "(Mar, 2018 - Aug, 2018)",
     desp: "<li>Worked on projects for U.S. Department of Agriculture (USDA),APHIS,PPQ</li> <li>Developed machine learning models which helped analyze the pest transmission data</li><li>Worked on approaches for Knowledge representation using knowledge graphs</li>",
   },
   {

@@ -21,7 +21,7 @@ let header = $(`
    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item"><a class="nav-link" href="awards.html">Awards</a></li>
-   <li class="nav-item"><a class="nav-link" href="https://tinyurl.com/2ynftym8" target="_blank">Resume</a></li>
+   <li class="nav-item"><a class="nav-link" href="https://tinyurl.com/2p8vpt69" target="_blank">Resume</a></li>
   </ul>
 </div>
 </nav>`);
